@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTest">
+        <attr name="textValue" format="string" />
+        <attr name="state" format="string" />
+    </declare-styleable>
+</resources>

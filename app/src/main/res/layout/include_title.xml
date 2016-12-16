@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/list_background">
+
+    <ImageView
+        android:id="@+id/include_title_iv_back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon_back"/>
+
+    <TextView
+        android:id="@+id/include_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="血压计生产测试工具"
+        android:textColor="@color/window_background_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/include_title_tv_sao"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="扫码"
+        android:gravity="center"
+        android:textColor="@color/window_background_dark"
+        android:textSize="13sp"
+          />
+</RelativeLayout>
